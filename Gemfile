@@ -23,8 +23,12 @@ end
 group :test do
   gem 'minitest-reporters'
   gem 'mini_backtrace'
+<<<<<<< HEAD
   gem 'guard'
   gem 'guard-minitest'
+=======
+
+>>>>>>> static-pages
 end
 
 group :production do

@@ -61,6 +61,7 @@ GEM
     formatador (0.2.5)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
+<<<<<<< HEAD
     guard (2.12.5)
       formatador (>= 0.2.4)
       listen (~> 2.7)
@@ -75,6 +76,8 @@ GEM
       guard-compat (~> 1.2)
       minitest (>= 3.0)
     hitimes (1.2.2)
+=======
+>>>>>>> static-pages
     i18n (0.7.0)
     jbuilder (2.2.16)
       activesupport (>= 3.0.0, < 5)
@@ -203,8 +206,11 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+<<<<<<< HEAD
   guard
   guard-minitest
+=======
+>>>>>>> static-pages
   jbuilder (~> 2.0)
   jquery-rails
   mini_backtrace
