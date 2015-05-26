@@ -1,11 +1,9 @@
-if RUBY_VERSION =~ /1.9/
-  Encoding.default_external = Encoding::UTF_8
-  Encoding.default_internal = Encoding::UTF_8
-end
+
 source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 gem 'bcrypt'
 gem 'bootstrap-sass', '3.3.4.1'
+gem 'sass-rails', '5.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
