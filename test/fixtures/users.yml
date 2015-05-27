@@ -5,5 +5,10 @@ one:
   email: MyString
 
 two:
-  name: MyString
-  email: MyString
+  name: MyString2
+  email: MyString2
+
+michael:
+  name: Michael Example
+  email: michael@example.com
+  password_digest: <%= User.digest('password') %>
