@@ -16,4 +16,8 @@ class SessionsHelperTest < ActionView::TestCase
     @user.update_attribute(:remember_digest, User.digest(User.new_token))
     assert_nil current_user
   end
+
+  test 'authenticated? should return false for a user with nil digest' do
+    assert_not @user.authenticated?(:remember, '')
+  end
 end
